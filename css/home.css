@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-one: #833988;
+  --Orange-color: #f57d20;
+  --white-Color: #ffffff;
+  --Dark-LightColor: #f0f2f5;
+}
+.orange-color {
+  color: var(--Orange-color);
+}
+.active-color {
+  color: var(--color-one);
+}
+.white-color {
+  color: var(--white-Color);
+}
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: var(--Dark-LightColor);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-one);
+  border-radius: 2rem;
+}
+/*google-fonts*/
+.cairo-uniquifier {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+/*google font*/
+
+.slide-home .swiper-slide {
+  background-image: url("../img/sliderimg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  z-index: -1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide-home .swiper-slide::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #5e5b5b;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  z-index: -1;
+}
+.slide-home .swiper-pagination {
+  position: relative !important;
+  top: -100px !important;
+}
+
+/* @media (min-width:320px) and (max-width:991px) {
+    .slide-home .swiper-pagination{
+      top: -130px !important;
+}
+ } */
+
+.slide-home .swiper-pagination-clickable .swiper-pagination-bullet {
+  color: #f0f2f5;
+  background: #f0f2f5;
+  width: 15px;
+  height: 15px;
+}
+.slide-home .swiper-pagination-bullet-active {
+  border: 2px solid gray;
+  outline: 1px solid var(--white-Color);
+}
+.text-on-img h1 {
+  color: var(--white-Color);
+  font-size: 60px;
+}
+.text-on-img p {
+  color: var(--Dark-LightColor);
+}
+.btn-order a {
+  text-decoration: none;
+  color: var(--Dark-LightColor);
+  font-size: 16px;
+  background-color: var(--color-one);
+  border-radius: 30px;
+  border: 2px solid var(--color-one);
+  padding: 8px 15px;
+}
+@media (min-width: 668px) and (max-width: 812px) {
+  .btn-order a {
+    padding: 5px 10px !important;
+    font-size: 14px !important;
+    position: relative;
+    top: 0px;
+  }
+  .slide-home .swiper-pagination {
+    top: -55px !important;
+  }
+  .text-on-img p {
+    font-size: 13.5px !important;
+  }
+}
+@media (max-width: 667px) {
+  .text-on-img h1 {
+    font-size: 30px;
+  }
+  .text-on-img p {
+    font-size: 15px;
+  }
+  .btn-order a {
+    padding: 5px 10px !important;
+    font-size: 14px !important;
+    position: relative;
+    top: 27px;
+  }
+}
+/*sliderHome-Page*/
+
+/* three-text-and-content*/
+.three-text-and-content {
+  margin-bottom: 0px;
+  background-color: var(--color-one);
+  border-radius: 10px;
+  position: relative;
+  bottom: 120px;
+  z-index: 1;
+  min-height: 25vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three-text-and-content h5 {
+  color: var(--Orange-color);
+}
+.three-text-and-content p {
+  font-size: 11.5px;
+  margin-left: -40px;
+}
+.backg img {
+  width: 32px;
+  height: 32px;
+  margin: auto 10px;
+}
+.backg {
+  padding: 2px;
+  position: relative;
+  top: 30px;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: rgb(255 255 255 / 30%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 668px) and (max-width: 812px) {
+  .three-text-and-content {
+    bottom: 105px !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 591px) {
+  .three-text-and-content {
+    bottom: 105px !important;
+  }
+}
+@media (min-width: 592px) and (max-width: 667px) {
+  .three-text-and-content {
+    top: -100px !important;
+  }
+}
+/*oneText-And-img-*/
+.oneimg-and-text {
+  margin-top: -60px;
+}
+.title-content p {
+  color: var(--color-one);
+  font-size: 18px;
+}
+@media (max-width: 667px) {
+  .title-content p {
+    font-size: 14px;
+  }
+}
+.oneimg-and-text img {
+  display: flex;
+  margin: auto;
+}
+/*oneText-And-img-*/
+
+/* loop-answer */
+
+.accordion p {
+  color: var(--color-one);
+}
+
+.accordion .contentBx {
+  position: relative;
+  margin: 10px 15px;
+  color: var(--color-one);
+}
+.accordion .contentBx .label {
+  position: relative;
+  /* width: 100%; */
+  padding: 10px;
+  color: var(--color-one);
+  display: flex;
+  cursor: pointer;
+}
+.accordion .contentBx .label::before {
+  content: "+";
+  position: absolute;
+  top: 43%;
+  right: -10px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+  color: var(--color-one);
+}
+@media (min-width: 320px) and (max-width: 667px) {
+}
+.accordion .contentBx.activee .label::before {
+  content: "-";
+}
+.accordion .contentBx .contentt {
+  background: var(--white-Color);
+  height: 0;
+  overflow: hidden;
+  transition: all ease 0.7s;
+}
+.accordion .contentBx.activee .contentt {
+  height: 90px;
+}
+@media (min-width: 320px) and (max-width: 667px) {
+  .accordion .contentBx {
+    font-size: 13.5px;
+  }
+  .accordion .contentBx.activee .contentt {
+    height: 125px !important;
+  }
+}
+@media (min-width: 668px) and (max-width: 812px) {
+  .accordion .contentBx {
+    font-size: 13.5px;
+  }
+  .accordion .contentBx.activee .contentt {
+    height: 110px !important;
+  }
+}
+/* loop-answer */
+
+/*rate-students*/
+.ratess {
+  display: flex;
+  margin: auto;
+}
+.rates {
+  background: var(--color-one);
+}
+
+.person-and-date img {
+  width: 60px;
+  display: block;
+  float: left;
+  padding-left: 15px;
+}
+.block-elemnts span {
+  font-size: 13px;
+  display: block;
+}
+.swiper-pagination {
+  position: static !important;
+  padding: 20px 0;
+  padding-bottom: 50px;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  color: #f57d20;
+  background: #f57d20;
+  width: 15px;
+  height: 15px;
+}
+.swiper-pagination-bullet-active {
+  border: 2px solid white;
+  outline: 1px solid #f57d20;
+}
+/*rate-students*/
+
+/*top-button*/
+
+.top-button button {
+  color: var(--white-Color);
+  background: var(--Orange-color);
+  padding: 10px 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--Orange-color);
+}
+#scrolltopbutton {
+  display: none;
+}
+/*top-button*/

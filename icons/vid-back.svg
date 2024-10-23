@@ -1,0 +1,28 @@
+<svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_bi_100_1026)">
+<circle cx="33" cy="33" r="32" fill="black" fill-opacity="0.25"/>
+<circle cx="33" cy="33" r="32.5" stroke="url(#paint0_linear_100_1026)" stroke-opacity="0.2"/>
+</g>
+<path d="M30 39V29L28 30.875" stroke="#F57D20" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34 38.3752C34.5223 38.7675 35.1715 39 35.875 39C37.6009 39 39 37.6009 39 35.875C39 34.1491 37.6009 32.75 35.875 32.75C35.1715 32.75 34.5223 32.9825 34 33.3748L34.625 29H39" stroke="#F57D20" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.4521 23.4203C17.7973 28.6588 17.4879 37.4595 22.7611 43.0771C28.0343 48.6948 36.8931 49.0021 42.5479 43.7636C48.2027 38.525 48.5121 29.7244 43.2389 24.1067C40.2395 20.9114 36.08 19.4341 32.0099 19.7183M34 16.5L30.4342 19.8777L34 23.5" stroke="#F57D20" stroke-opacity="0.7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_bi_100_1026" x="-20" y="-20" width="106" height="106" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="10"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_100_1026"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_100_1026" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="1.46045" operator="dilate" in="SourceAlpha" result="effect2_innerShadow_100_1026"/>
+<feOffset dx="-0.730227" dy="0.730227"/>
+<feGaussianBlur stdDeviation="0.365113"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.35 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_100_1026"/>
+</filter>
+<linearGradient id="paint0_linear_100_1026" x1="57.5161" y1="5.3871" x2="33" y2="65" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

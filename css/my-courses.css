@@ -1,0 +1,44 @@
+.cart{position: relative;}
+.cart img{width: 25px;}
+
+.cart span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    translate: 50% -50%;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    border-radius: 50%;
+}
+
+.name{
+    font-family: Cairo;
+font-size: 20px;
+font-weight: 600;
+text-align: left;
+color: #833988;
+}
+
+
+.login-and-sign-in{
+    gap: 5rem;
+}
+
+.card-body h5{
+    font-family: Cairo;
+    font-size: 24px;
+    font-weight: 900;
+    color: #833988;
+}
+
+.card-body h6{
+    font-family: Cairo;
+    font-size: 12px;
+    font-weight:600;
+    color: #F57D20;
+}

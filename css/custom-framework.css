@@ -1,0 +1,70 @@
+/* import exo font */
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap");
+
+:root {
+    --primary-color: #833988;
+    --alt-color: #f57d20;
+    --text-color: #555555;
+    --heading-color: #000000;
+  }
+  
+  body {
+    /* Cairo */
+    font-family: "Cairo", sans-serif !important;
+  }
+  /*  reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none !important;
+    color: inherit;
+  }
+  h3,p{
+    margin: 0 !important;
+  }
+  /*  reset */
+
+  /* Framework */
+
+.flex-col{flex-direction: column !important;}
+.justify-between{justify-content: space-between !important;}
+.items-center{align-items: center !important;}
+.justify-center{justify-content: center !important;}
+.h-reverse{scale: -1;}
+.flex-1{flex: 1 1 0%;}
+.heading-h1{
+  font-family: Exo;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.2px;
+  text-align: left;
+  color: Black;
+  }
+.sub-heading{
+  font-family: Cairo;
+  font-size:16px;
+  font-weight: 900;
+  text-align: right;
+  color: #000000;
+}
+.p{
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: right;
+  color: #727272;
+}
+.p2{
+font-family: Jost;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #555555;
+}
